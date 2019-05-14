@@ -1,0 +1,30 @@
+{
+  "name": "rn-action-sheet",
+  "version": "1.0.0",
+  "description": "A simple action sheet for iOS and Android (native on iOS).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'HI'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshit5230/rn-action-sheet.git"
+  },
+  "keywords": [
+    "action",
+    "sheet",
+    "ios",
+    "android",
+    "react",
+    "native",
+    "material",
+    "rn",
+    "simple"
+  ],
+  "author": "Akshit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshit5230/rn-action-sheet/issues"
+  },
+  "homepage": "https://github.com/akshit5230/rn-action-sheet#readme"
+}
