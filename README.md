@@ -83,7 +83,7 @@ const styles = {
 
 ### Options 
 | Name | Description | Type | Example | 
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | options | An array of options to show in the action sheet. Note that the first option (at index 0) will always be the cancel button. | Array of Strings | ['Cancel', 'Camera', 'Gallery'] |
 | destructiveButtonIndex | If you want to show a button in red color, pass the index of that option to this. | Integer | 2 |
 | title | Provide a title to the action sheet. Renders on top. | String | "Choose an option" |
