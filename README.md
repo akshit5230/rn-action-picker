@@ -89,6 +89,7 @@ const styles = {
 | title | Provide a title to the action sheet. Renders on top. | String | "Choose an option" |
 | message | Provide a descriptive message below the title. | String | "Please choose one of the following options" |
 | tintColor | Color for the options text | String | "#000000" |
+
 Note that `cancelButtonIndex` is default to 0 always. So you must put that option at 0th index in the `options` array.
 
 ### Functions
