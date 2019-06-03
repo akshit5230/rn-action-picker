@@ -1,14 +1,14 @@
-# React Native Action Sheet
-A simple action sheet for iOS and Android. Renders Native ActionSheetIOS Component in iOS and custom ActionSheet lookalike component in Android.
+# React Native Action Picker
+A simple action picker for iOS and Android. Renders Native ActionSheetIOS Component in iOS and custom ActionSheet lookalike component in Android.
 
 ## Installation
-`npm i --save rn-action-sheet`
+`npm i --save rn-action-picker`
 
 ## Usage
 
 1. Minimal example
 ```
-<ActionSheet 
+<ActionPicker 
   options={{
     options: ['Cancel', 'Camera', 'Gallery'],
     destructiveButtonIndex: 1,
@@ -32,7 +32,7 @@ import React from 'react';
 import {
   View, Button
 } from 'react-native;
-import ActionSheet from 'rn-action-sheet';
+import ActionPicker from 'rn-action-sheet';
 
 const options = {
   options: ['Cancel', 'Camera', 'Gallery'],
@@ -48,7 +48,7 @@ export default class MyExample extends React.Component {
     return(
       <View style={styles.container}>
         <Button title="Upload Photo" onPress={() => this.actionSheetRef.show()} />
-        <ActionSheet
+        <ActionPicker
           ref={(ref) => this.actionSheetRef = ref}
           options={options}
           onPressAction={this.onPressAction}
